@@ -1,0 +1,8 @@
+quedarán bien imágenes blurreadas detrás de cada section?
+o una sola detrás del body?
+
+scrolling animations para cada section?
+
+dropdown en navbar -> inicio para ayudar a navegar por las sections?
+
+font-size adecuado para p?
