@@ -1,9 +1,11 @@
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 2,
-    spaceBetween: 30,
+    spaceBetween: 100,
     slidesPerGroup: 2,
     loop: true,
-    centeredSlides: false,
+    //centerSlide: 'true',
+    //centeredSlides: true,
+    effect: 'fade',
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,

@@ -236,7 +236,7 @@ el propósito de hover:hover es que funcione únicamente en desktop, en mobile n
 .slide-container {
     max-width: 1144px;
     width: 100%;
-    --background-color: gray;
+    background-color: gray;
     padding: 40px;
 }
 
