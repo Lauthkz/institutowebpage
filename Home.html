@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISFDyT 93 - Inicio</title>
+    <link rel="icon" type="image/x-icon" href="CSS - IMGS/escudo_web.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="CSS/styleHome.css">
+    <link rel="stylesheet" href="CSS - IMGS/styleHome.css">
 </head>
 
 <body>
     <!-- Header/Navbar -->
     <header class="header">
         <a href="#" class="logo">
-            <img class="logoImg" src="CSS/logoRounded.png" alt="Logo del Instituto 93">
+            <img class="logoImg" src="CSS - IMGS/logoRounded.png" alt="Logo del Instituto 93">
             Instituto Superior 93
         </a>
         <input type="checkbox" id="check">
@@ -29,108 +30,165 @@
             <a href="#" class="navbar-item" style="--i:1;">Inscripción a Carreras</a>
             <a href="#" class="navbar-item" style="--i:2;">Inscripción a Materias</a>
             <a href="/Login.html" class="navbar-item" style="--i:3;">Ingresar</a>
-            <a href="#" class="navbar-item" style="--i:4;">Registrarse</a>
+            <a href="/Register.html" class="navbar-item" style="--i:4;">Registrarse</a>
         </nav>
     </header>
     <!-- Fin Header/Navbar -->
+    <!-- Title -->
     <section class="title">
         <div class="container">
+            <video src="toma instituto.mp4" class="background-video" autoplay loop muted></video>
             <h1>Instituto Superior <br> de Formación Docente y Técnica<br>N°93</h1>
             <h3>"Arturo Umberto Illia"</h3>
         </div>
     </section>
+    <!-- Historia -->
     <section class="historia">
         <div class="container">
             <h1>Formando personas desde 1993</h1>
-            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quod aut quibusdam
-                libero? Culpa corrupti delectus, eaque ipsam id possimus sed beatae quaerat quod voluptatum architecto.
-                Et eius rerum quo?
-                Facilis molestiae quam corrupti reiciendis provident aut praesentium quis atque vitae voluptatem
-                officiis perferendis doloribus a, suscipit animi natus enim magni nam? Qui odit quae aspernatur dolorum
-                voluptates laudantium molestiae!
-                Voluptate praesentium repellat repellendus iste nemo blanditiis fugit distinctio. Maiores soluta
-                perspiciatis exercitationem, id laborum atque illum quae debitis dolore ut temporibus minus maxime fugit
-                reprehenderit nemo architecto odit consequatur!</p>
+            <p class="description">La trayectoria académica del Instituto 93 comenzó con dos carreras: Tecnicatura
+                Superior en Análisis de Sistemas y Tecnicatura Superior en Administración Contable, las cuales durante
+                su primer año de vida se dictaron en el edificio de la escuela Secundaria N° 2 hasta que poco después se
+                trasladó definitivamente al edificio de la Escuela Primaria N° 1 en la Calle SAN MARTÍN 101 – San
+                Vicente – donde desde hace más de dos décadas abre sus puertas diariamente a partir de las 18:30 hs. con
+                el firme objetivo de formar “a los mejores Técnicos de la Provincia de Buenos Aires”.</p>
+        </div>
+        <div class="imagenprueba">
+
         </div>
     </section>
+    <!-- Ventajas/propuesta -->
     <section class="ventajas">
+        <div class="container">
+            <ul>
+                <h1>¿Qué ventajas ofrece el Instituto Superior 93?</h1>
+                <li>Permite a sus alumnos insertarse laboralmente en el ámbito local, provincial, regional y nacional.
+                </li>
+                <li>Cuenta con docentes altamente capacitados y especializados en cada una de las carreras.</li>
+                <li>Se encuentra localizado en el centro de San Vicente accediendo por diversos medios de transporte.
+                </li>
+                <li>Todas sus carreras son terciarias, gratuitas y otorgan títulos oficiales.</li>
+                <li>Las carreras tienen una duración de 3 años, y cuenta con acuerdos con Universidades que reconocen
+                    una gran parte del programa de estudios.</li>
+            </ul>
+        </div>
+        <div class="imgVentajas">
+            <img src="CSS - IMGS/ventajas.png" alt="ventajas">
+        </div>
     </section>
+    <!-- Perfil del egresadx -->
     <section class="perfilEgresado">
+        <div class="imgEgresados">
+            <img src="CSS - IMGS/egresados.png" alt="egresados">
+        </div>
+        <div class="container">
+            <h1>Perfil del Egresado</h1>
+            <p> El Instituto Superior 93 busca que sus egresados sean capaces de insertarse en el mundo laboral y en los
+                procesos productivos a partir una sólida base científica, académica y tecnológica, activando
+                competencias y actitudes que garanticen un eficiente desempeño profesional.
+                Se busca la formación de recursos humanos capaces de ocupar la línea media de empresas y organismos, y
+                con su perspectiva de articulación que permita proseguir estudios universitarios, respondiendo de manera
+                eficaz y con un espíritu de compromiso ético y social, a los incesantes desafíos que se presentan
+                actualmente en el sector socio-productivo local y regional.
+            </p>
+        </div>
     </section>
+    <!-- Carreras -->
     <section class="sliderCarreras">
+        <h1>Conocé nuestras carreras</h1>
         <div class="slide-container swiper">
             <div class="slide-content">
                 <div class="card-wrapper swiper-wrapper">
                     <div class="card swiper-slide">
                         <div class="logo-content">
                             <span class="overlay"></span>
-                            <div class="logo-img">
+                            <div class="logo-img-sistemas">
                                 <h1 class="capitals">AP</h1>
                             </div>
                         </div>
                         <div class="card-content">
-                            <h2 class="titleCarrera">Title</h2>
+                            <h2 class="titleCarrera">Tecnicatura Superior en Análisis, Desarrollo y Programación de
+                                Aplicaciones</h2>
                             <p class="descCarrera">Descripción corta de la carrera en cuestión.</p>
+                            <a class="btnVerMas"
+                                href="https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-analisis-desarrollo-y-programacion-de-aplicaciones/"
+                                target="_blank">Quiero saber más</a>
                         </div>
                     </div>
                     <div class="card swiper-slide">
                         <div class="logo-content">
                             <span class="overlay"></span>
-                            <div class="logo-img">
-                                <h1 class="capitals">AP</h1>
+                            <div class="logo-img-publica">
+                                <h1 class="capitals">PUB</h1>
                             </div>
                         </div>
                         <div class="card-content">
-                            <h2 class="titleCarrera">Title</h2>
+                            <h2 class="titleCarrera">Tecnicatura Superior en Administración Pública</h2>
                             <p class="descCarrera">Descripción corta de la carrera en cuestión.</p>
+                            <a class="btnVerMas"
+                                href="https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-administracion-publica/"
+                                target="_blank">Quiero saber más</a>
                         </div>
                     </div>
                     <div class="card swiper-slide">
                         <div class="logo-content">
                             <span class="overlay"></span>
-                            <div class="logo-img">
-                                <h1 class="capitals">AP</h1>
+                            <div class="logo-img-turismo">
+                                <h1 class="capitals">TUR</h1>
                             </div>
                         </div>
                         <div class="card-content">
-                            <h2 class="titleCarrera">Title</h2>
+                            <h2 class="titleCarrera">Tecnicatura Superior en Guía de Turismo</h2>
                             <p class="descCarrera">Descripción corta de la carrera en cuestión.</p>
+                            <a class="btnVerMas"
+                                href="https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-guia-de-turismo/"
+                                target="_blank">Quiero saber más</a>
                         </div>
                     </div>
                     <div class="card swiper-slide">
                         <div class="logo-content">
                             <span class="overlay"></span>
-                            <div class="logo-img">
-                                <h1 class="capitals">AP</h1>
+                            <div class="logo-img-contable">
+                                <h1 class="capitals">CON</h1>
                             </div>
                         </div>
                         <div class="card-content">
-                            <h2 class="titleCarrera">Title</h2>
+                            <h2 class="titleCarrera">Tecnicatura Superior en Administración Contable</h2>
                             <p class="descCarrera">Descripción corta de la carrera en cuestión.</p>
+                            <a class="btnVerMas"
+                                href="https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-administracion-contable/"
+                                target="_blank">Quiero saber más</a>
                         </div>
                     </div>
                     <div class="card swiper-slide">
                         <div class="logo-content">
                             <span class="overlay"></span>
-                            <div class="logo-img">
-                                <h1 class="capitals">AP</h1>
+                            <div class="logo-img-marketing">
+                                <h1 class="capitals">MAR</h1>
                             </div>
                         </div>
                         <div class="card-content">
-                            <h2 class="titleCarrera">Title</h2>
+                            <h2 class="titleCarrera">Tecnicatura Superior en Administración con Orientación en Marketing
+                            </h2>
                             <p class="descCarrera">Descripción corta de la carrera en cuestión.</p>
+                            <a class="btnVerMas"
+                                href="https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-administracion-con-orientacion-en-marketing/"
+                                target="_blank">Quiero saber más</a>
                         </div>
                     </div>
                     <div class="card swiper-slide">
                         <div class="logo-content">
                             <span class="overlay"></span>
-                            <div class="logo-img">
-                                <h1 class="capitals">AP</h1>
+                            <div class="logo-img-enfermeria">
+                                <h1 class="capitals">ENF</h1>
                             </div>
                         </div>
                         <div class="card-content">
-                            <h2 class="titleCarrera">Title</h2>
+                            <h2 class="titleCarrera">Tecnicatura Superior en Enfermería</h2>
                             <p class="descCarrera">Descripción corta de la carrera en cuestión.</p>
+                            <a class="btnVerMas"
+                                href="https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-enfermeria/"
+                                target="_blank">Quiero saber más</a>
                         </div>
                     </div>
                 </div>
@@ -140,12 +198,46 @@
             <div class="swiper-pagination"></div>
         </div>
     </section>
-    <section class="mapa">
-    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Horario de Atención</h4>
+                    <ul>
+                        <li>
+                            Lunes a Viernes de 18:30 a 22:30
+                        </li>
+                        <li>
+                            (02225) 481175 / (02225) 484015
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Encontranos</h4>
+                    <ul>
+                        <li>Av. San Martín 101 – San Vicente (1865)</li>
+                        <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.816970280086!2d-58.425972879138385!3d-35.02502776553185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2c53aefcbec1%3A0x391483c1d5e02671!2sInstituto%20Superior%20de%20Formaci%C3%B3n%20Docente%20y%20T%C3%A9cnica%20N%C2%BA%2093%20Arturo%20Umberto%20Illia!5e0!3m2!1ses-419!2sar!4v1702403761279!5m2!1ses-419!2sar"
+                                width="325" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguinos!</h4>
+                    <div class="socials">
+                        <a href="mailto:institutosuperior93@gmail.com"><i class='bx bx-envelope'></i></a>
+                        <a href="http://www.facebook.com/ISFDYT93SV" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://twitter.com/is93sanvi" target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://instagram.com/institutosuperiors93sv" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="JS/scriptHome.js"></script>
-    
+
 </body>
 
 </html>

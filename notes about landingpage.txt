@@ -1,8 +1,19 @@
-quedarán bien imágenes blurreadas detrás de cada section?
-o una sola detrás del body?
+quedarán bien imágenes blurreadas detrás de cada section -> sí, el tema es conseguirlas.
 
-scrolling animations para cada section?
+scrolling animations para cada section -> fade in/out
 
-dropdown en navbar -> inicio para ayudar a navegar por las sections?
+dropdown en navbar -> inicio para ayudar a navegar por las sections? por ahora no se dijo nada (?)
 
-font-size adecuado para p?
+font-size adecuado para p -> criterio personal
+
+
+
+----- TO DO -----
+
+- buscar imgs
+- animar fade in/out por scroll en sections y rezar para que las cosas de adentro también se animen
+- acomodar textos en secciones
+- pulir swiper (logos, colores, ¿imgs dentro de sliders o color plano?, botón ver más/resolución)
+- agregar mapa
+- mantener responsividad
+- FOOTER!!!
